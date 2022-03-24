@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/shared.css" />
+  <link rel="stylesheet" href="./CSS/company.css" />
+  <link rel="stylesheet" href="./CSS/mainNav.css" />
+  <link rel="stylesheet" href="./CSS/footer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Hire It! Canada</title>
+</head>
+
+<body>
+  <header>
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modalContainer">
+        <p>Please confirm the information below:</p>
+        <p>First Name: </p>
+        <p>Last Name: </p>
+        <p>Phone number: </p>
+        <p>Email: </p>
+        <p>Company Name: </p>
+        <p>Message: </p>
+        <div class="closeModal">
+          <button class="btnOne" onclick="closeModal()">Cancel</button>
+          <button class="btnTwo" onclick="closeModal()">Confirm</button>
+        </div>
+      </div>
+    </div>
+    <!-- /Top Navigation Menu -->
+    <div class="menu">
+      <div class="logo">
+        <img src="./images/Asset 3.svg" />
+      </div>
+      <div class="mainNav">
+        <ul>
+          <li><a href="./index.html" class="decor">Home</a></li>
+          <li><a href="#" class="decor">Blog</a></li>
+          <li><a href="#" class="decor">Job Board</a></li>
+          <li><a href="#" class="menuTalent">Talent</a></li>
+          <li><a href="./company.html" class="menuCompanies">Companies</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- Form Box -->
+  <div class="mainHeader">
+    <h1>
+      Find <span class="text colors"> </span> from our global community!
+    </h1>
+    <div>
+      <div class="bookMeeting">
+        <div class="usserInfo">
+          <div class="div-form" style="width: 80%">
+            <div class="contactForm">
+              <form id="userForm">
+                <div class="userId">
+                  <div>
+                    <label for="fname" class="label">First Name</label>
+                    <input type="text" placeholder="John" id="fname" name="fname" value="" />
+                  </div>
+                  <div>
+                    <label for="lname" class="label" required>Last Name</label>
+                    <input type="text" placeholder="Smith" id="lname" name="lname" value="" />
+                  </div>
+                </div>
+                <div class="userId">
+                  <div>
+                    <label for="phone" class="label" required>Phone Number</label>
+                    <input type="number" max="9999999999" min="1000000000" placeholder="(555) 555.5555" id="pnumber"
+                      name="pnumber" value="" />
+                  </div>
+
+                  <div>
+                    <label for="email" class="label" required>E-mail</label>
+                    <input type="text" placeholder="john@smith.com" id="email" name="email" value="" />
+                  </div>
+                </div>
+                <div class="userCompany">
+                  <label for="cname" class="label">Company Name</label>
+                  <input type="text" placeholder="Talent Solutions Inc" id="cname" name="cname" value="" />
+                </div>
+                <div class="userMessage">
+                  <label for="message" class="label" required>Message</label>
+                  <textarea class="contactComent" id="message" name="message"
+                    placeholder="Please describe which positions you are hiring for." rows="5" cols="30"></textarea>
+                </div>
+                <div class="contact">
+
+                  <p>How do you wish to be contacted?</p>
+                  <div class="userSelect">
+                    <div class="checkbox">
+                      <input type="checkbox" id="option1" name="phone1" value="phone" />
+                      <label for="phone1"> Phone</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" id="option2" name="email2" value="Email" />
+                      <label for="email2">Email</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="button">
+                  <button type="submit" class="sendMessage">BOOK A MEETING</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
+  <script src="./JavaScript/anime.js"></script>
+  <script src="./JavaScript/script.js"></script>
+</body>
+<footer>
+  <div class="footerMenu">
+    <div class="logoFooter">
+      <img src="./images/Asset 3.svg" />
+      <div>
+        <h5>2022 Hire It Canada - by Priscila Mattos</h5>
+      </div>
+    </div>
+    <div class="linkFooter">
+      <ul>
+        <h3>Hire It Canada</h3>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="socialMedia">
+      <h3>Find us on Social Media</h3>
+      <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+      <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
+</footer>
+
+</html>

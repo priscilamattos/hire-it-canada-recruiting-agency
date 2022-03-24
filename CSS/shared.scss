@@ -1,0 +1,27 @@
+@import "partial";
+
+li {
+  @include shared-style;
+}
+
+body {
+  @include shared-style;
+  background-color: map-get($colors, "whiteText");
+  font-family: $font-family;
+}
+
+@media screen and (min-width: 600px) {
+  .mainHeader {
+    height: auto;
+    background-position: 50% 25%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

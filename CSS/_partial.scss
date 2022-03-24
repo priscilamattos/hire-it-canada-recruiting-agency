@@ -1,0 +1,99 @@
+$colors: (
+  underOrange: #ec4a0a,
+  greenPrimary: #009688,
+  greenSecondary: #158578,
+  yellowPrimary: #ffc726,
+  yellowHover: #f79009,
+  whiteText: #f2f4f7,
+  whiteHighlight: #f9fafb,
+  blackText: #2d3a41,
+  blackTextBackground: rgba(0, 0, 0, 0.5),
+  blueMedias: #007bb5,
+);
+
+$font-family: ("Nunito", sans-serif);
+$font-weight: ("bold");
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@mixin flex-style {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-style_section {
+  display: flex;
+}
+
+@mixin ul-style {
+  margin: 0;
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+@mixin shared-style {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin style-h2 {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+@mixin style-button {
+  width: 14rem;
+  font-weight: bold;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #f9fafb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@mixin div-button_section {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin style-section {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  margin: 20px auto 20px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin subtitle {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+@mixin services-description {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin footer-alignment {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 33%;
+}
+
+@mixin social-media {
+  background: #55acee;
+  color: white;
+}

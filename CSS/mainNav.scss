@@ -1,0 +1,59 @@
+@import "partial";
+
+// Navbar
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-right: 60px;
+  ul {
+    @include ul-style;
+    li {
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      padding: 8px;
+      color: map-get($colors, "blackText");
+    }
+  }
+
+  .decor {
+    text-decoration: none;
+    color: map-get($colors, "blackText");
+    &:hover {
+      text-decoration: underline 3px solid map-get($colors, "underOrange");
+    }
+  }
+
+  .logo {
+    display: inline-block;
+    align-content: center;
+    width: 100px;
+    margin-left: 60px;
+    padding-top: 10px;
+  }
+
+  .buttonMenu {
+    border-radius: 5px;
+    padding: 5px !important;
+    margin: 5px;
+  }
+
+  .menuTalent {
+    border: 1.5px solid map-get($colors, "greenPrimary");
+    &:hover {
+      text-decoration: none;
+      color: map-get($colors, "whiteText");
+      background-color: map-get($colors, "greenPrimary");
+    }
+  }
+
+  .menuCompanies {
+    border: 1.5px solid map-get($colors, "yellowPrimary");
+    &:hover {
+      text-decoration: none;
+      background-color: map-get($colors, "yellowPrimary");
+    }
+  }
+}

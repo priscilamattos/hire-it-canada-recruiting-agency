@@ -1,0 +1,175 @@
+/* Start of Typing classes */
+.blue {
+  color: #175cd3;
+}
+
+.green {
+  color: #1b998b;
+}
+
+.red {
+  color: #ec4a0a;
+}
+/* End of Typing classes */
+
+/* Header */
+.mainHeader {
+  background-image: url(../images/background.png);
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mainHeader h1 {
+  text-decoration: none;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  max-width: 50%;
+  font-size: 28px;
+  line-height: 32px;
+  padding-left: 60px;
+  color: #2d3a41;
+  height: 40px;
+}
+
+/* Form */
+.bookMeeting {
+  margin-left: 60px;
+}
+
+.contactForm {
+  width: 80%;
+}
+
+.userId div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.userId {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+}
+
+.sendMessage {
+  background: #009688;
+  color: #f6f8ff;
+  width: 40%;
+  height: 40px;
+  border: 1px solid #009688;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.sendMessage:hover {
+  background: #157a6e;
+}
+
+.contactForm label,
+.userSelect label,
+p {
+  text-decoration: none;
+  color: #2d3a41;
+}
+
+.userId input,
+.userCompany input,
+.userMessage textarea {
+  border: 2px #2d3a41 solid;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact {
+  justify-content: space-between;
+}
+
+.contact p {
+  width: 100%;
+}
+
+.contact,
+.userSelect {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+.checkbox {
+  width: 45%;
+  justify-content: space-around;
+}
+
+/* Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContainer {
+  width: 50%;
+  max-width: 500px;
+  height: 300px;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  position: relative;
+  padding: 25px;
+}
+
+.closeModal {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnTwo,
+.btnOne {
+  color: #2d3a41;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btnOne {
+  background: #fb6514;
+}
+
+.btnOne:hover {
+  background: #ec4a0a;
+}
+
+.btnTwo {
+  background: #1b998b;
+}
+
+.btnTwo:hover {
+  background: #157a6e;
+}

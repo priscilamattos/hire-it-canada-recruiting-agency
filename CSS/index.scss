@@ -1,0 +1,164 @@
+@import "partial";
+
+/* Section CTA */
+.container {
+  width: 100%;
+  height: 600px;
+  padding-bottom: 20px;
+  background-image: url(../images/codingmainpage-min.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.imgTitle {
+  font: $font-family;
+  font-weight: $font-weight;
+  font-size: 36px;
+  color: map-get($colors, "whiteHighlight");
+  background-color: map-get($colors, "blackTextBackground");
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+}
+
+.btnHire {
+  background: map-get($colors, "yellowPrimary");
+  color: map-get($colors, "blackText");
+  font: $font-weight;
+  width: 40%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid map-get($colors, "whiteHighlight");
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+    background: map-get($colors, "yellowHover");
+  }
+}
+
+/* Blog Section */
+.blogSection {
+  @include style-section;
+  h2 {
+    color: map-get($colors, "greenPrimary");
+    font: 32px;
+    margin-bottom: 0.5rem;
+    transform: scale(0.94);
+    animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  p {
+    color: map-get($colors, "blackText");
+    font: 18px;
+  }
+  a {
+    color: map-get($colors, "greenSecondary");
+    font: 12px;
+    text-decoration: none;
+  }
+  img {
+    width: 240px;
+    margin-left: 10px;
+  }
+}
+
+.blogText {
+  margin-left: 5rem;
+  width: 60%;
+}
+
+.resources {
+  @include flex-style;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: map-get($colors, "yellowPrimary");
+  h2 {
+    @include style-h2;
+    color: map-get($colors, "blackText");
+  }
+}
+
+.businessServices {
+  @include flex-style;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: map-get($colors, "greenPrimary");
+  h2 {
+    @include style-h2;
+    color: map-get($colors, "whiteText");
+  }
+}
+
+.servCandidates {
+  @include services-description;
+  color: map-get($colors, "blackText");
+  p {
+    @include subtitle;
+  }
+  h3 {
+    @include subtitle;
+    color: map-get($colors, "underOrange");
+    font-weight: $font-weight;
+  }
+}
+.servBusiness {
+  @include services-description;
+  color: map-get($colors, "whiteText");
+  p {
+    @include subtitle;
+  }
+  h3 {
+    @include subtitle;
+    color: map-get($colors, "yellowPrimary");
+    font-weight: $font-weight;
+  }
+}
+
+.sectionTitle {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.serviceBlock {
+  @include flex-style_section;
+  align-items: flex-start;
+}
+
+/* Content - Buttons */
+.sendResume,
+.requestCall {
+  @include div-button_section;
+}
+
+.btnResume {
+  @include style-button;
+  background: map-get($colors, "greenPrimary");
+  color: map-get($colors, "whiteText");
+  &:hover {
+    cursor: pointer;
+    background: map-get($colors, "greenSecondary");
+  }
+}
+
+.bookMeeting {
+  @include style-button;
+  background: map-get($colors, "yellowPrimary");
+  color: map-get($colors, "blackText");
+  &:hover {
+    cursor: pointer;
+    background: map-get($colors, "yellowHover");
+  }
+}

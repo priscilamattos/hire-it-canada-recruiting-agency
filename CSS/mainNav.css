@@ -1,0 +1,77 @@
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  margin-right: 60px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  color: #2d3a41;
+}
+
+.menu .decor {
+  text-decoration: none;
+  color: #2d3a41;
+}
+
+.menu .decor:hover {
+  -webkit-text-decoration: underline 3px solid #ec4a0a;
+          text-decoration: underline 3px solid #ec4a0a;
+}
+
+.menu .logo {
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100px;
+  margin-left: 60px;
+  padding-top: 10px;
+}
+
+.menu .buttonMenu {
+  border-radius: 5px;
+  padding: 5px !important;
+  margin: 5px;
+}
+
+.menu .menuTalent {
+  border: 1.5px solid #009688;
+}
+
+.menu .menuTalent:hover {
+  text-decoration: none;
+  color: #f2f4f7;
+  background-color: #009688;
+}
+
+.menu .menuCompanies {
+  border: 1.5px solid #ffc726;
+}
+
+.menu .menuCompanies:hover {
+  text-decoration: none;
+  background-color: #ffc726;
+}
+/*# sourceMappingURL=mainNav.css.map */
