@@ -1,23 +1,16 @@
-$colors: (
-  underOrange: #ec4a0a,
-  greenPrimary: #009688,
-  greenSecondary: #158578,
-  yellowPrimary: #ffc726,
-  yellowHover: #f79009,
-  whiteText: #f2f4f7,
-  whiteHighlight: #f9fafb,
-  blackText: #2d3a41,
-  blackTextBackground: rgba(0, 0, 0, 0.5),
-  blueMedias: #007bb5,
-);
+$underOrange: #ec4a0a;
+$greenPrimary: #009688;
+$greenSecondary: #158578;
+$yellowPrimary: #ffc726;
+$yellowHover: #f79009;
+$whiteText: #f2f4f7;
+$whiteHighlight: #f9fafb;
+$blackText: #2d3a41;
+$blackTextBackground: rgba(0, 0, 0, 0.5);
+$blueMedias: #007bb5;
 
 $font-family: ("Nunito", sans-serif);
 $font-weight: ("bold");
-
-.wrapper {
-  width: 1280px;
-  margin: 0 auto;
-}
 
 @mixin flex-style {
   display: flex;
@@ -30,6 +23,7 @@ $font-weight: ("bold");
 @mixin ul-style {
   margin: 0;
   padding: 10px 0;
+  font-size: 1.5rem;
   list-style-type: none;
 }
 
@@ -44,9 +38,19 @@ $font-weight: ("bold");
   text-align: center;
 }
 
+@mixin style-h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+}
+
+@mixin subtitle {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+}
+
 @mixin style-button {
-  width: 14rem;
-  font-weight: bold;
   height: 40px;
   box-sizing: border-box;
   border: 1px solid #f9fafb;
@@ -62,21 +66,16 @@ $font-weight: ("bold");
   width: 100%;
   display: flex;
   justify-content: center;
+  button {
+    width: 250px;
+  }
 }
 
-@mixin style-section {
+@mixin sections-style {
   display: flex;
-  height: 350px;
-  width: 100%;
-  margin: 20px auto 20px auto;
   align-items: center;
   justify-content: space-between;
-}
-
-@mixin subtitle {
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 14px;
+  height: 100%;
 }
 
 @mixin services-description {
@@ -96,4 +95,23 @@ $font-weight: ("bold");
 @mixin social-media {
   background: #55acee;
   color: white;
+}
+
+@mixin styleBtn {
+  background: $yellowPrimary;
+  color: $blackText;
+  font: $font-weight;
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid $whiteHighlight;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+    background: $yellowHover;
+  }
 }

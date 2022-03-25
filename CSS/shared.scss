@@ -1,4 +1,7 @@
-@import "partial";
+@import "./../CSS/partial";
+@import "./nav.scss";
+@import "./footer.scss";
+@import "./CSS/parallax";
 
 li {
   @include shared-style;
@@ -8,6 +11,11 @@ body {
   @include shared-style;
   background-color: map-get($colors, "whiteText");
   font-family: $font-family;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 600px) {
@@ -24,4 +32,11 @@ input::-webkit-inner-spin-button {
 }
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
