@@ -1,13 +1,3 @@
-.wrapper {
-  width: 1280px;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1280px;
-  margin: 0 auto;
-}
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,17 +68,12 @@
 }
 
 .menu .menuCompanies {
-  border: 2px solid #ffc726;
+  border: 2px solid #ec4a0a;
 }
 
 .menu .menuCompanies:hover {
   text-decoration: none;
-  background-color: #ffc726;
-}
-
-.wrapper {
-  width: 1280px;
-  margin: 0 auto;
+  background-color: #ec4a0a;
 }
 
 .footerMenu {
@@ -205,6 +190,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 600px) {
   .mainHeader {
     height: auto;
@@ -220,5 +210,12 @@ input::-webkit-inner-spin-button {
 
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
 /*# sourceMappingURL=shared.css.map */

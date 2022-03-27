@@ -1,7 +1,6 @@
 @import "./../CSS/partial";
 @import "./nav.scss";
 @import "./footer.scss";
-@import "./CSS/parallax";
 
 li {
   @include shared-style;
@@ -9,7 +8,7 @@ li {
 
 body {
   @include shared-style;
-  background-color: map-get($colors, "whiteText");
+  background-color: $whiteText;
   font-family: $font-family;
 }
 

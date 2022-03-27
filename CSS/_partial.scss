@@ -1,7 +1,7 @@
 $underOrange: #ec4a0a;
 $greenPrimary: #009688;
 $greenSecondary: #158578;
-$yellowPrimary: #ffc726;
+$yellowPrimary: #f4ba40;
 $yellowHover: #f79009;
 $whiteText: #f2f4f7;
 $whiteHighlight: #f9fafb;
@@ -113,5 +113,20 @@ $font-weight: ("bold");
   &:hover {
     cursor: pointer;
     background: $yellowHover;
+  }
+}
+
+@mixin apply-button {
+  width: 100px;
+  background-color: $yellowPrimary;
+  color: $blackText;
+  font-family: $font-family;
+  font-weight: 700;
+  border: 1px solid $whiteHighlight;
+  height: 40px;
+  width: 200px;
+  &:hover {
+    background-color: $yellowHover;
+    cursor: pointer;
   }
 }

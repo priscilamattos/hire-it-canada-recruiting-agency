@@ -54,10 +54,10 @@
   }
 
   .menuCompanies {
-    border: 2px solid $yellowPrimary;
+    border: 2px solid $underOrange;
     &:hover {
       text-decoration: none;
-      background-color: $yellowPrimary;
+      background-color: $underOrange;
     }
   }
 }

@@ -39,7 +39,7 @@
 }
 
 .container .btnHire {
-  background: #ffc726;
+  background: #f4ba40;
   color: #2d3a41;
   font: "bold";
   width: 250px;
@@ -135,7 +135,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #ffc726;
+  background-color: #f4ba40;
 }
 
 .resources .wrapper {
@@ -252,7 +252,7 @@
   padding-left: 30px;
   padding-right: 30px;
   font-size: 24px;
-  color: #ffc726;
+  color: #f4ba40;
   font-weight: "bold";
 }
 
@@ -315,7 +315,7 @@
   margin-bottom: 3rem;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  background: #ffc726;
+  background: #f4ba40;
   color: #2d3a41;
 }
 

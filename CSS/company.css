@@ -1,22 +1,233 @@
-/* Start of Typing classes */
-.blue {
-  color: #175cd3;
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #f9fafb;
 }
 
-.green {
-  color: #1b998b;
+.menu ul {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  list-style-type: none;
 }
 
-.red {
+.menu ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  color: #2d3a41;
+}
+
+.menu .decor {
+  text-decoration: none;
+  color: #2d3a41;
+}
+
+.menu .decor:hover {
+  -webkit-text-decoration: underline 3px solid #ec4a0a;
+          text-decoration: underline 3px solid #ec4a0a;
+}
+
+.menu .logo {
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 200px;
+}
+
+.menu .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu .buttonMenu {
+  border-radius: 5px;
+  padding: 5px !important;
+  margin: 5px;
+}
+
+.menu .menuTalent {
+  border: 2px solid #009688;
+}
+
+.menu .menuTalent:hover {
+  text-decoration: none;
+  color: #f2f4f7;
+  background-color: #009688;
+}
+
+.menu .menuCompanies {
+  border: 2px solid #ec4a0a;
+}
+
+.menu .menuCompanies:hover {
+  text-decoration: none;
+  background-color: #ec4a0a;
+}
+
+.footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100px;
+}
+
+.logoFooter {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+}
+
+.logoFooter img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.linkFooter {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+}
+
+.linkFooter li {
+  list-style-type: none;
+}
+
+.linkFooter a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2d3a41;
+}
+
+h3 {
   color: #ec4a0a;
+  font-size: 12px;
+  padding-bottom: 0.5rem;
 }
-/* End of Typing classes */
+
+h5 {
+  font-size: 12px;
+  color: #2d3a41;
+  font-weight: lighter;
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #55acee;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55acee;
+  color: white;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4f7;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .mainHeader {
+    height: auto;
+    background-position: 50% 25%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+body {
+  background-color: #f4ba40;
+}
 
 /* Header */
 .mainHeader {
-  background-image: url(../images/background.png);
+  background-color: #f4ba40;
   width: 100%;
-  height: auto;
+  height: 100vh;
   margin-top: 20px;
   padding-top: 25px;
   padding-bottom: 20px;
@@ -25,6 +236,7 @@
 }
 
 .mainHeader h1 {
+  margin-top: 10%;
   text-decoration: none;
   text-align: left;
   font-family: "Nunito", sans-serif;
@@ -41,80 +253,151 @@
   margin-left: 60px;
 }
 
-.contactForm {
-  width: 80%;
+.bookMeeting .userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.userId div {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
+.bookMeeting .userInfo figure {
+  width: 30%;
+  height: auto;
 }
-.userId {
-  display: flex;
-  justify-content: space-between;
+
+.bookMeeting .userInfo figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.bookMeeting .div-form {
+  width: 60%;
+  margin-top: 10%;
+}
+
+.bookMeeting .div-form .contactForm {
   width: 100%;
 }
 
-.button {
+.bookMeeting .div-form .userId {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
-.sendMessage {
+.bookMeeting .div-form .userId div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.bookMeeting .div-form .userId input {
+  height: 40px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+}
+
+.button button {
   background: #009688;
   color: #f6f8ff;
   width: 40%;
   height: 40px;
   border: 1px solid #009688;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 2px;
   text-align: center;
   padding: 10px;
   margin: auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.sendMessage:hover {
+.button button:hover {
   background: #157a6e;
 }
 
-.contactForm label,
+.sendMessage .contactForm label,
 .userSelect label,
 p {
   text-decoration: none;
   color: #2d3a41;
 }
 
-.userId input,
-.userCompany input,
-.userMessage textarea {
+input,
+textarea {
   border: 2px #2d3a41 solid;
   width: 100%;
   margin-bottom: 10px;
+  height: 40px;
 }
 
-.contact {
-  justify-content: space-between;
-}
-
-.contact p {
-  width: 100%;
+textarea {
+  height: 250px;
 }
 
 .contact,
 .userSelect {
-  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.checkbox {
+.contact p,
+.userSelect p {
+  width: 70%;
+}
+
+.contact .checkbox,
+.userSelect .checkbox {
   width: 45%;
-  justify-content: space-around;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .checkbox input,
+.userSelect .checkbox input {
+  width: 30%;
+}
+
+.contact {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* Modal */
-
 .modal {
   display: none;
   position: fixed;
@@ -125,7 +408,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modalContainer {
+.modal .modalContainer {
   width: 50%;
   max-width: 500px;
   height: 300px;
@@ -137,16 +420,20 @@ p {
   padding: 25px;
 }
 
-.closeModal {
+.modal .modalContainer .closeModal {
   position: absolute;
   bottom: 10px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.btnTwo,
-.btnOne {
+.modal .modalContainer .btnTwo,
+.modal .modalContainer .btnOne {
   color: #2d3a41;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
@@ -155,21 +442,23 @@ p {
   padding: 5px 5px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.btnOne {
+.modal .modalContainer .btnOne {
   background: #fb6514;
 }
 
-.btnOne:hover {
+.modal .modalContainer .btnOne:hover {
   background: #ec4a0a;
 }
 
-.btnTwo {
+.modal .modalContainer .btnTwo {
   background: #1b998b;
 }
 
-.btnTwo:hover {
+.modal .modalContainer .btnTwo :hover {
   background: #157a6e;
 }
+/*# sourceMappingURL=company.css.map */
