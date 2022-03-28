@@ -11,7 +11,7 @@
           align-items: center;
   height: 150px;
   width: 100%;
-  background-color: #f9fafb;
+  background-color: #f4f2ed;
 }
 
 .menu ul {
@@ -26,12 +26,12 @@
   text-decoration: none;
   text-align: center;
   padding: 8px;
-  color: #2d3a41;
+  color: #37474f;
 }
 
 .menu .decor {
   text-decoration: none;
-  color: #2d3a41;
+  color: #37474f;
 }
 
 .menu .decor:hover {
@@ -74,6 +74,11 @@
 .menu .menuCompanies:hover {
   text-decoration: none;
   background-color: #ec4a0a;
+  color: #f2f4f7;
+}
+
+footer {
+  background-color: #f4f2ed;
 }
 
 .footerMenu {
@@ -148,7 +153,7 @@ h3 {
 
 h5 {
   font-size: 12px;
-  color: #2d3a41;
+  color: #37474f;
   font-weight: lighter;
 }
 

@@ -1,3 +1,7 @@
+footer {
+  background-color: #f4f2ed;
+}
+
 .footerMenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +74,7 @@ h3 {
 
 h5 {
   font-size: 12px;
-  color: #2d3a41;
+  color: #37474f;
   font-weight: lighter;
 }
 

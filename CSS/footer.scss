@@ -1,5 +1,8 @@
 @import "partial";
 
+footer {
+  background-color: $whiteHighlight;
+}
 .footerMenu {
   display: flex;
   margin-bottom: 20px;
