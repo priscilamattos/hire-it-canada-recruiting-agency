@@ -11,7 +11,6 @@
           align-items: center;
   height: 150px;
   width: 100%;
-  background-color: #f4f2ed;
 }
 
 .menu ul {
@@ -90,7 +89,7 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 100px;
+  height: 150px;
 }
 
 .logoFooter {
@@ -259,7 +258,7 @@ input[type="number"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
+  height: 60vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -336,8 +335,8 @@ input[type="number"] {
 
 .input__label {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 5px;
+  top: -8px;
   padding: 0 5px;
   margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 0.5);
   background: #f2f4f7;
@@ -460,4 +459,4 @@ button:hover {
   color: #009688;
   padding-left: 5px;
 }
-/*# sourceMappingURL=jobpage.css.map */
+/*# sourceMappingURL=applicationPage.css.map */

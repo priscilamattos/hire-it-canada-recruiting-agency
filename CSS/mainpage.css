@@ -2,7 +2,7 @@
 .container {
   width: 100%;
   height: 600px;
-  background-image: url(../images/codingmainpage-min.jpg);
+  background-image: url(../Assets/codingmainpage-min.jpg);
   background-position: center;
   background-size: cover;
   display: -webkit-box;

@@ -16,7 +16,7 @@ document.addEventListener(
                              <p>${element.location}</p>
                             <p>${element.shortDescription}</p>
                        </div>
-                        <a href="/jobpage?jobid=${element.id}">APPLY</a>
+                        <a href="/applicationPage.html?jobid=${element.id}">APPLY</a>
                         `;
 
           let jobBoard = document.getElementById("job-board");
