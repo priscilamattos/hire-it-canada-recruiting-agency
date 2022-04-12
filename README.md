@@ -20,7 +20,7 @@ UX and UI Design.
 
 
 # High fidelity prototype in Figma
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ww4J2V31N7KZc8EfIF8iG%2FBranding%3Fnode-id%3D32%253A646%26scaling%3Dmin-zoom%26page-id%3D29%253A1612" allowfullscreen></iframe>
+You can visit it here: https://www.figma.com/proto/7ww4J2V31N7KZc8EfIF8iG/Branding?node-id=32%3A646&scaling=min-zoom&page-id=29%3A1612
 
 # Final version Live!
 
