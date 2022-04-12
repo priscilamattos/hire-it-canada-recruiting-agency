@@ -20,7 +20,7 @@ UX and UI Design.
 
 
 # High fidelity prototype in Figma
-You can visit it here: https://www.figma.com/proto/7ww4J2V31N7KZc8EfIF8iG/Branding?node-id=32%3A646&scaling=min-zoom&page-id=29%3A1612
+<a href="https://www.figma.com/proto/7ww4J2V31N7KZc8EfIF8iG/Branding?node-id=32%3A646&scaling=min-zoom&page-id=29%3A1612">Click here to see prototype</a>
 
 # Final version Live!
 
