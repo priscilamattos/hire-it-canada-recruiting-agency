@@ -7,7 +7,8 @@ I created this project for training Sass and some JavaScript(vanilla/jQuery). It
 UX and UI Design.
 
 ## Branding
-[A4 - 2](https://user-images.githubusercontent.com/65781962/162873066-84dda48f-515a-4213-8a4e-e0c606d5a69f.png)
+![A4 - 2](https://user-images.githubusercontent.com/65781962/162873824-6b52146e-7360-4476-a58a-e11d442a81bc.jpg)
+
 
 
 ## Styleguide
