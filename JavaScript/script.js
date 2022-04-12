@@ -37,20 +37,3 @@ function submit_by_name() {
     return true;
   }
 }
-// var x = document.getElementsByName('contactForm');
-// x[0].submit(); // Form submission
-
-// if (validation()) {
-//   // Calling validation function
-//   var x = document.getElementsByName(".contactForm");
-//   x[0].submit(); //form submission
-//   alert(
-//     " Name : " +
-//       name +
-//       " n Email : " +
-//       email +
-//       " n Form Name : " +
-//       document.getElementById(".contactForm").getAttribute("name") +
-//       "nn Form Submitted Successfully......"
-//   );
-// }
