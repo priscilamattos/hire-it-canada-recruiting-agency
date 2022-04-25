@@ -108,14 +108,15 @@
 //test
 .input {
   position: relative;
-
+  span {
+    background-color: $whiteHighlight;
+  }
   &__label {
     position: absolute;
     left: 5px;
     top: -8px;
     padding: 0 5px;
     margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 0.5);
-    background: $whiteText;
     white-space: nowrap;
     transform: translate(0, 0);
     transform-origin: 0 0;
