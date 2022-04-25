@@ -2,7 +2,6 @@ footer .footerMenu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
   margin-top: 20px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
