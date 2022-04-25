@@ -310,10 +310,6 @@ body {
           justify-content: space-evenly;
 }
 
-.job-board {
-  height: 85vh;
-}
-
 .job-board h2 {
   font-size: 40px;
   color: #009688;

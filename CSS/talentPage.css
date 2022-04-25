@@ -325,10 +325,19 @@ input[type="number"] {
   padding-right: 30px;
 }
 
+.application-container .application-details .visit-blog a {
+  text-decoration: none;
+}
+
 .application-container .application-details .visit-blog h3 {
   font-weight: 300;
   width: 90%;
   color: #f79009;
+}
+
+.application-container .application-details .visit-blog h3:hover {
+  cursor: pointer;
+  color: #158578;
 }
 
 .application-container .application-details .visit-blog figure {
