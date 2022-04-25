@@ -70,6 +70,21 @@ body {
     margin-top: 10%;
     margin-bottom: 5%;
   }
+  .back-page {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    a {
+      font-weight: 300;
+      text-decoration: none;
+      color: $blackText;
+    }
+    i {
+      color: $greenPrimary;
+      padding-right: 5px;
+    }
+  }
   .next-page {
     display: inline-flex;
     margin-right: 0;
@@ -78,6 +93,8 @@ body {
     justify-content: flex-end;
     a {
       font-weight: 300;
+      text-decoration: none;
+      color: $blackText;
     }
     i {
       color: $greenPrimary;

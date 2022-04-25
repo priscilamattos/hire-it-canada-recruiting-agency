@@ -322,6 +322,30 @@ body {
   margin-bottom: 5%;
 }
 
+.job-board .back-page {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.job-board .back-page a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #37474f;
+}
+
+.job-board .back-page i {
+  color: #009688;
+  padding-right: 5px;
+}
+
 .job-board .next-page {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -338,6 +362,8 @@ body {
 
 .job-board .next-page a {
   font-weight: 300;
+  text-decoration: none;
+  color: #37474f;
 }
 
 .job-board .next-page i {
