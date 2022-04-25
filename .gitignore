@@ -1,12 +1,14 @@
 node_modules/*
 .DS_Store
 mainpage.css.map
-talentpage.css.map
-jobpage.css.map
+talentPage.css.map
+applicationPage.css.map
 shared.css.map
 footer.css.map
 company.css.map
-
+talentPage.css.map
+jobBoard.css.map
+README.md
 
 
 
