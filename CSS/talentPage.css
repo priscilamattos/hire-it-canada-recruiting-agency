@@ -1,0 +1,506 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  color: #37474f;
+}
+
+.menu .decor {
+  text-decoration: none;
+  color: #37474f;
+}
+
+.menu .decor:hover {
+  -webkit-text-decoration: underline 3px solid #ec4a0a;
+          text-decoration: underline 3px solid #ec4a0a;
+}
+
+.menu .logo {
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 200px;
+}
+
+.menu .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu .buttonMenu {
+  border-radius: 5px;
+  padding: 5px !important;
+  margin: 5px;
+}
+
+.menu .menuTalent {
+  border: 2px solid #009688;
+}
+
+.menu .menuTalent:hover {
+  text-decoration: none;
+  color: #f2f4f7;
+  background-color: #009688;
+}
+
+.menu .menuCompanies {
+  border: 2px solid #ec4a0a;
+}
+
+.menu .menuCompanies:hover {
+  text-decoration: none;
+  background-color: #ec4a0a;
+  color: #f2f4f7;
+}
+
+footer .footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 150px;
+}
+
+footer .logoFooter {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+}
+
+footer .logoFooter img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+footer .linkFooter {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+}
+
+footer .linkFooter li {
+  list-style-type: none;
+}
+
+footer .linkFooter a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2d3a41;
+}
+
+footer h3 {
+  color: #ec4a0a;
+  font-size: 12px;
+  padding-bottom: 0.5rem;
+}
+
+footer h5 {
+  font-size: 12px;
+  color: #37474f;
+  font-weight: lighter;
+}
+
+footer .fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer .fa:hover {
+  opacity: 0.7;
+}
+
+footer .fa-linkedin {
+  background: #55acee;
+  color: white;
+}
+
+footer .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+footer .fa-instagram {
+  background: #55acee;
+  color: white;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4f7;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .mainHeader {
+    height: auto;
+    background-position: 50% 25%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  background-image: url(../Assets/talent-header.jpg);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .talent-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container .talent-container h1 {
+  font: "Nunito", sans-serif;
+  font-weight: "bold";
+  font-size: 36px;
+  color: #f4f2ed;
+  background-color: #ec4a0a;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.application-container {
+  background-color: #f4f2ed;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.application-container .application-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.application-container .application-details .hiring-post {
+  width: 50%;
+  height: 600px;
+  padding: 50px 20px;
+  -webkit-box-shadow: 2px solid #f4ba40;
+          box-shadow: 2px solid #f4ba40;
+  background-color: #f4f2ed;
+  margin: 100px 0;
+}
+
+.application-container .application-details .hiring-post .post-information h2 {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  text-align: left;
+  color: #009688;
+  margin-top: 0.2rem;
+}
+
+.application-container .application-details .hiring-post .post-information h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.application-container .application-details .hiring-post .post-information ul {
+  padding: 25px 0;
+}
+
+.application-container .application-details .hiring-post .post-information p,
+.application-container .application-details .hiring-post .post-information li {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  width: 90%;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.application-container .application-details .hiring-post .post-information .fa-terminal:before {
+  content: "\f120";
+  color: #ec4a0a;
+}
+
+.application-container .application-details .visit-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding-right: 30px;
+}
+
+.application-container .application-details .visit-blog h3 {
+  font-weight: 300;
+  width: 90%;
+  color: #f79009;
+}
+
+.application-container .application-details .visit-blog figure {
+  width: 30%;
+}
+
+.application-container .application-details .visit-blog figure img {
+  width: 100%;
+}
+
+.application-form {
+  margin: 100px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.application-form h2 {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: #009688;
+  margin-bottom: 0;
+}
+
+.application-form p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.input {
+  position: relative;
+}
+
+.input__label {
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  padding: 0 5px;
+  margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 0.5);
+  background: #f2f4f7;
+  white-space: nowrap;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background: #f2f4f7;
+  -webkit-transition: -webkit-transform 120ms ease-in;
+  transition: -webkit-transform 120ms ease-in;
+  transition: transform 120ms ease-in;
+  transition: transform 120ms ease-in, -webkit-transform 120ms ease-in;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.input__field {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  height: 40px;
+  width: 70%;
+  border: 2px solid #009688;
+  padding: 20 px 0;
+  color: #37474f;
+  background: transparent;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  margin: 40px 0;
+}
+
+input[type="text"]:focus + .input__label, input[type="text"]:not(:placeholder-shown) + .input__label {
+  -webkit-transform: translate(0.25rem, -65%) scale(0.8);
+          transform: translate(0.25rem, -65%) scale(0.8);
+  color: #158578;
+}
+
+.upload-resume {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.upload-resume [type="text"] {
+  width: 50%;
+  margin: 0;
+}
+
+button {
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #f9fafb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  background-color: #f4ba40;
+  font-weight: bold;
+  color: #37474f;
+}
+
+button:hover {
+  background-color: #f79009;
+}
+
+.back-page {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.back-page a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #37474f;
+}
+
+.back-page i {
+  color: #009688;
+  padding-right: 5px;
+}
+
+.next-page {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.next-page a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #37474f;
+}
+
+.next-page i {
+  color: #009688;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=talentPage.css.map */
